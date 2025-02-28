@@ -1,0 +1,62 @@
+html {
+    font-family: "Open Sans", sans-serif;
+}
+
+
+
+.main-container {
+    background: url('images/bg-desktop.svg');
+    background-size: cover;
+    height: 100dvh;
+    background-color: hsl(257, 40%, 49%);
+    color: #fff;
+    padding: 2%;display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.main-container .center-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.main-container .center-container img {
+    width: 100%;
+    max-height: 500px;
+}
+
+.main h2 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.main {
+    max-width: 518px;
+}
+
+.main p .info {
+    font-weight: 400;
+}
+
+.main .btn {
+    background-color: #fff;
+    color: hsl(257, 40%, 49%);
+    padding: 10px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.main .btn:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+
